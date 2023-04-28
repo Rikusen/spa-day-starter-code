@@ -15,11 +15,11 @@
 </div>
 <div id = "servicesMenu">
     <h3>Facials</h3>
-    <p>this is a test</p>
+    <p>We Do Facials!</p>
     <table>
-        <th:block th:each = "facials: ${appropriateFacials}">
+        <th:block th:each = "facial : ${appropriateFacials}">
             <tr>
-                <td th:text = "${facials}">Facial</td>
+                <td th:text = "${facial}"></td>
             </tr>
         </th:block>
     </table>
